@@ -1,0 +1,16 @@
+#title{
+text-align: center;
+  font-size: 4em;
+  color: #ffffff;
+  font-family: 'bicubik';
+  font-weight: bold;
+  display: block;
+}
+
+.halfrow {
+  background-color: #003366;
+  color:white;
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
+}
