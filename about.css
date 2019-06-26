@@ -24,5 +24,9 @@ text-align: center;
 
 }
 
-
+#persontyping{
+  width:100%;
+  height:90vh;
+  object-fit: cover;
+}
 About Us
