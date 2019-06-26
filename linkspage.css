@@ -1,7 +1,11 @@
 #title {
   text-align: center;
   direction: rtl;
-  font-family: "impact";
+  font-family: "monospace";
+  font-size: 10em;
+  font-weight: bold;
+}
 
+#myDIV {
 
 }
