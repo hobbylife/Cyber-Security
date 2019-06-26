@@ -1,7 +1,26 @@
 #title {
   text-align: center;
   direction: rtl;
-  font-family: "impact";
+  font-family: "monospace";
+  font-size: 12em;
+  font-weight: bold;
+}
 
+#cp {
+    text-align: center;
+    font-size: "xx-large";
+    color:white;
+    font-family: "impact";
+    display: block;
+    font-weight: block;
+}
 
+.row {
+  background-color: #003366
+  color: white;
+  margin; 40px
+  padding: 20px
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.1em;
 }
