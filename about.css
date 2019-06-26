@@ -1,8 +1,8 @@
 #title{
 text-align: center;
-  font-size: 4em;
+  font-size: 3.9em;
   color:white;
-  font-family: "impact";
+  font-family:monospace;
   display: block;
   font-weight: block;
 }
@@ -13,12 +13,16 @@ text-align: center;
   margin: 40px;
   padding: 20px;
   text-align: center;
+  font-family:monospace;
+  font-size: 1.1em;
 }
 
 #paragraph {
   text-align:center;
+  font-family:monospace;
+  font-size: 1.2em;
 
 }
 
 
-}
+About Us
