@@ -6,3 +6,7 @@
   display: block;
   font-weight: block;
 }
+#paragraph{
+  font-family:monospace;
+  font-size:1.25em;
+}

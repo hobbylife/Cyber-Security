@@ -29,4 +29,8 @@ text-align: center;
   height:90vh;
   object-fit: cover;
 }
-About Us
+
+#bullets {
+  font-family:monospace;
+  font-size:1.1em;
+}
