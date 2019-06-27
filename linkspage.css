@@ -1,0 +1,30 @@
+#title{
+text-align: center;
+  font-size: 3.9em;
+  color:white;
+  font-family:monospace;
+  display: block;
+  font-weight: block;
+}
+
+.row {
+  background-color: #003366;
+  color:white;
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
+  font-family:monospace;
+  font-size: 1.1em;
+}
+
+#paragraph {
+  text-align:center;
+  font-family:monospace;
+  font-size: 1.2em;
+}
+
+#heading {
+  text-align:center;
+  font-family:monospace;
+  font-size: 3.2em;
+}
