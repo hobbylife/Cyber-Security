@@ -23,7 +23,7 @@
 }
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #000;
 }
 .topnav a {
   float: left;
@@ -46,6 +46,19 @@
     position: sticky;
     top: 0;
   }
+
+#heading {
+  font-family: monospace;
+  font-size: 2.2em;
+  text-align: center;
+}
+
+#list {
+  font=family: monospace;
+  font-size: 1.2em;
+  text-align: center;
+}
+
 </style>
 <body>
 
@@ -54,7 +67,7 @@
   <a href="AboutPage.html">About Us</a>
   <a href="">Blog</a>
   <a class="active" href="Events.html">Events</a>
-  <a href="">Links</a>
+  <a href="Linkpage.html">Links</a>
 </div>
 
   <div class="container-fluid">
@@ -65,13 +78,32 @@
     </div>
   </div>
 
-   <p id="paragraph">Insert event information here</p>
+  <h1><center>Events Table</center></h1>
+  <table border="10">
+  <table class="col-sm-12">
+    <tr>
+      <th id="heading"><u><strong>Event Name</strong></u></th>
+      <th id="heading"><u><strong>Event Time and Date</strong></u></th>
+      <th id="heading"><u><strong>Event Place</strong></u></th>
+    </tr>
 
-   <div class=row>
-     <div class="col-sm-12">
-       <img id=persontyping src="imgs/persontyping.jpg"/>
-     </div>
-   </div>
+    <tr id="list">
+      <th>Hackathon</th>
+      <th>July 5th, 2019</th>
+      <th>Santorini, Greece</th>
+    </tr>
+
+    <tr id="list">
+      <th>C.C.C (Cyber Club Competition)</th>
+      <th>August 18th, 2019</th>
+      <th>San Fransisco, California</th>
+    </tr>
+
+    <tr id="list">
+      <th>NCL (National Cyber League)</th>
+      <th>January 2nd, 2020</th>
+      <th>Bismarck, North Dakota</th>
+    </tr>
 
 
  </body>
