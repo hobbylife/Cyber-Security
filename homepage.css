@@ -6,3 +6,27 @@
   display: block;
   font-weight: block;
 }
+#paragraph{
+  font-family:monospace;
+  font-size:1.25em;
+}
+
+.header {
+    text-align: center;
+    font-size: 3.9em;
+    color:white;
+    font-family:monospace;
+    display: block;
+    font-weight: block;
+    background-color: #003366;
+  }
+
+  .row {
+    background-color: #003366;
+    color:white;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    font-family:monospace;
+    font-size: 1.1em;
+}

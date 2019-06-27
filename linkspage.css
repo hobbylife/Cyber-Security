@@ -1,0 +1,34 @@
+/* Title Settings */
+#title {
+text-align: center;
+  font-size: 3.9em;
+  color:white;
+  font-family:monospace;
+  display: block;
+  font-weight: block;
+}
+
+/* Settings for the navbar */
+.row {
+  background-color: #003366;
+  color:white;
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
+  font-family:monospace;
+  font-size: 1.1em;
+}
+
+/* Paragraph Settings */
+#paragraph {
+  text-align:center;
+  font-family:monospace;
+  font-size: 1.2em;
+}
+
+/* Heading settings */
+#heading {
+  text-align:center;
+  font-family:monospace;
+  font-size: 3.2em;
+}
