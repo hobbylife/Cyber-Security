@@ -21,14 +21,21 @@ text-align: center;
 
 /* Paragraph Settings */
 #paragraph {
-  text-align:center;
-  font-family:monospace;
-  font-size: 1.2em;
+  text-align: center;
+  font-family: monospace;
+  list-style: none;
 }
 
 /* Heading settings */
 #heading {
-  text-align:center;
-  font-family:monospace;
-  font-size: 3.2em;
+  text-align: center;
+  font-family: monospace;
+}
+
+.text {
+  font-family: "Courier New", Courier, monospace;
+  margin: auto;
+  width: 35%;
+  padding: 10px;
+  text-align: center;
 }
