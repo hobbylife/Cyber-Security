@@ -12,3 +12,9 @@ text-align: center;
   display: block;
   font-weight: block;
 }
+
+#list {
+  text-align: center;
+  font-family: monospace;
+  list-style: none;
+}
