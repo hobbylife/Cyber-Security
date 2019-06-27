@@ -9,6 +9,8 @@
 #paragraph{
   font-family:monospace;
   font-size:1.25em;
+  color: white;
+  
 }
 
 .header {
@@ -29,4 +31,5 @@
     text-align: center;
     font-family:monospace;
     font-size: 1.1em;
+
 }
