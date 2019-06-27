@@ -1,4 +1,5 @@
-#title{
+/* Title Settings */
+#title {
 text-align: center;
   font-size: 3.9em;
   color:white;
@@ -7,6 +8,7 @@ text-align: center;
   font-weight: block;
 }
 
+/* Settings for the navbar */
 .row {
   background-color: #003366;
   color:white;
@@ -17,12 +19,14 @@ text-align: center;
   font-size: 1.1em;
 }
 
+/* Paragraph Settings */
 #paragraph {
   text-align:center;
   font-family:monospace;
   font-size: 1.2em;
 }
 
+/* Heading settings */
 #heading {
   text-align:center;
   font-family:monospace;
