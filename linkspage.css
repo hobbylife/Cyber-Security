@@ -41,7 +41,7 @@ text-align: center;
 
 .column {
   float: left;
-  width: 50%
+  width: 33.33%;
 }
 
 .row:after {
