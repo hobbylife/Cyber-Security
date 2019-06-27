@@ -34,4 +34,8 @@
 
 }
 
-<img src="imgs/0sand1s.jpg" alt="code" width="42" height="42" border="5">
+.sticky {
+  position: sticky;
+  width: 50%;
+  bottom: 5px;
+}
