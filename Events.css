@@ -1,0 +1,20 @@
+.text {
+  text-align: center;
+  font-family: monospace;
+  list-style: none;
+}
+
+#title{
+text-align: center;
+  font-size: 3.9em;
+  color:black;
+  font-family:monospace;
+  display: block;
+  font-weight: block;
+}
+
+#list {
+  text-align: center;
+  font-family: monospace;
+  list-style: none;
+}
