@@ -10,7 +10,6 @@ text-align: center;
 
 /* Settings for the navbar */
 .row {
-  background-color: #003366;
   color:white;
   margin: 40px;
   padding: 20px;
@@ -38,4 +37,21 @@ text-align: center;
   width: 35%;
   padding: 10px;
   text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width:100%;
+  }
 }
