@@ -1,7 +1,12 @@
 #title {
   text-align: center;
-  direction: rtl;
-  font-family: "impact";
-
-
+  font-size: 3.9em;
+  color: black;
+  font-family:monospace;
+  display: block;
+  font-weight: block;
+}
+#paragraph{
+  font-family:monospace;
+  font-size:1.25em;
 }
