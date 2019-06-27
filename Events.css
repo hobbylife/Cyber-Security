@@ -2,6 +2,7 @@
   text-align: center;
   font-family: monospace;
   list-style: none;
+  color: white;
 }
 
 #title{
@@ -17,4 +18,37 @@ text-align: center;
   text-align: center;
   font-family: monospace;
   list-style: none;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width:100%;
+  }
+}
+
+.challenges {
+  color: white;
+  font-family: monospace;
+}
+
+.space {
+  color:white;
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
+  font-family:monospace;
+  font-size: 1.1em;
+  margin-left:20%;
+  margin-right:20%;
 }
