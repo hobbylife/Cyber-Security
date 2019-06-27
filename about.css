@@ -21,7 +21,8 @@ text-align: center;
   text-align:left;
   font-family:monospace;
   font-size: 1.2em;
-
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 #persontyping{
@@ -33,4 +34,6 @@ text-align: center;
 #bullets {
   font-family:monospace;
   font-size:1.1em;
+  margin-left: 40px;
+  margin-right: 40px;
 }
