@@ -1,7 +1,7 @@
 #title {
   text-align: center;
   font-size: 3.9em;
-  color: black;
+  color: white;
   font-family:monospace;
   display: block;
   font-weight: block;
@@ -9,6 +9,8 @@
 #paragraph{
   font-family:monospace;
   font-size:1.25em;
+  color: white;
+
 }
 
 .header {
@@ -29,4 +31,11 @@
     text-align: center;
     font-family:monospace;
     font-size: 1.1em;
+
+}
+
+.sticky {
+  position: sticky;
+  width: 50%;
+  bottom: 5px;
 }
