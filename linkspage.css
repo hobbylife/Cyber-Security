@@ -55,3 +55,14 @@ text-align: center;
     width:100%;
   }
 }
+
+ body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+ }
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
