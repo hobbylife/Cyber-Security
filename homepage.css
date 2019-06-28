@@ -39,3 +39,13 @@
   width: 50%;
   bottom: 5px;
 }
+
+#paragraph
+  {
+  text-align: center;
+    font-size: 4.9em;
+    color:black;
+    font-family:monospace;
+    display: block;
+    font-weight: block;
+  }

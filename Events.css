@@ -52,3 +52,14 @@ text-align: center;
   margin-left:20%;
   margin-right:20%;
 }
+
+#paragraph {
+  {
+  text-align: center;
+    font-size: 4.9em;
+    color:black;
+    font-family:monospace;
+    display: block;
+    font-weight: block;
+  }
+}
