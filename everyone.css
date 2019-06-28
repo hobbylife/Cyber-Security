@@ -2,16 +2,14 @@
 body {
   background-image:url("imgs/background.jpg");
   margin: 0;
-  font-family: monospace;
+  font-family: "Courier New", Courier, monospace;
   background-size: cover;
-  -webkit-background-size: cover;
- -moz-background-size: cover;
-  -o-background-size: cover
 }
 /* Navigation Bar */
 .topnav {
   overflow: hidden;
   background-color: #000;
+  background-size: cover;
 }
 .topnav a {
   float: left;
@@ -20,6 +18,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: "Courier New", Courier, monospace;
 }
 .topnav a:hover {
   background-color: #ddd;
@@ -39,19 +38,20 @@ body {
 .header {
   padding: 70px;
   text-align: center;
-  background: #090344;
+  /* background: #090344; */
   color: white;
-  font-size: 30px;
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 
 
 .text {
-  text-align: center;
+  /* text-align: center; */
   font-family: "Courier New", Courier, monospace;
   list-style: none;
   color: white;
-  width: 35%;
+   width: 70%;
   padding: 10px;
   margin: auto;
 }
@@ -68,7 +68,7 @@ text-align: center;
 
 #list {
   text-align: center;
-  font-family: monospace;
+  font-family: "Courier New", Courier, monospace;
   list-style: none;
 }
 
@@ -91,7 +91,7 @@ text-align: center;
 
 .challenges {
   color: white;
-  font-family: monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .space {
@@ -118,32 +118,34 @@ text-align: center;
   display: block;
   font-weight: block;
 }
-
-#paragraph{
-  font-family:monospace;
-  font-size:1.25em;
-  color: white;
-
-}
 */
+#paragraph {
+  text-align:left;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2em;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+}
+
 .header2 {
     text-align: center;
-    font-size: 3.9em;
+    font-size: 2em;
     color:white;
-    font-family:monospace;
+    font-family: "Courier New", Courier, monospace;
     display: block;
     font-weight: block;
-    background-color: #003366;
+    /* background-color: #003366; */
   }
 
 
   .row {
-    background-color: #003366;
+    /* background-color: #000; */
     color:white;
     margin: 40px;
     padding: 20px;
     text-align: center;
-    font-family:monospace;
+    font-family: "Courier New", Courier, monospace;
     font-size: 1.1em;
 
 }
@@ -154,7 +156,9 @@ text-align: center;
   bottom: 5px;
 }
 
-
+.black-bg {
+  background-color:black;
+}
 
 
 
