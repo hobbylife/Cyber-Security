@@ -75,15 +75,25 @@ body,html{
 table {
   width: 100%;
 }
-td, th {
+td, {
   font-size: 1.0em;
   padding: 5% 2% 5% 2%;
 }
+th{
+  font-size: 1.0em;
+  padding: 5% 2% 5% 2%;
+  text-decoration: underline;
+}
 
 @media only screen and (min-width: 800px) {
-  td, th {
+  td{
     font-size: 2.0em;
     padding: 5% 2% 5% 2%;
+  }
+  th {
+    font-size: 3.0em;
+    padding: 5% 2% 5% 2%;
+    text-decoration: underline;
   }
 }
 
@@ -114,9 +124,9 @@ td, th {
       <div class="col-sm-12">
           <table>
             <tr>
-              <th width="30%">Event Name</th>
-              <th width="30%">Event Place</th>
-              <th>Event Time</th>
+              <th width="30%">Event</th>
+              <th width="30%">Place</th>
+              <th>Time</th>
             </tr>
             <tr>
               <td>Hackathon</td>
