@@ -62,3 +62,9 @@ text-align: center;
   background-repeat: no-repeat;
  }
 </style>
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
