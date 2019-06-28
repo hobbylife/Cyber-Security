@@ -1,5 +1,5 @@
 # Cyber-Security
-Making a new webist for NDSU's Student Association Cyber Security Club. :)
+Making a new website for NDSU's Student Association Cyber Security Club. :)
 
 HAVE A GREAT DAY PEEPS!!!
 
