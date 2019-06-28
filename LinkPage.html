@@ -21,16 +21,20 @@
 
 /* <!-- CSS Navbar settings --> */
 body {
-  background-image:url("imgs/background.jpg");
-  margin: 0;
+  /* margin: 0; */
   font-family: monospace;
-  background-size: cover;
-
+  background-image: url("imgs/background.jpg");
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
 }
+
 .topnav {
   overflow: hidden;
   background-color: #000;
+  background-size: cover;
 }
+
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -39,14 +43,24 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
+
 .topnav a.active {
-  background-color: #003366;
+  background-color: #0f3668;
   color: white;
 }
+.header {
+  padding: 70px;
+  text-align: center;
+  background: #090344;
+  color: white;
+  font-size: 30px;
+}
+
 </style>
 <body>
 
@@ -78,88 +92,88 @@ body {
         <h1><center>Operating System</h1></center>
         <h5><center>Vulnerable Operating Systems</center></h5>
         <ul>
-          <center><a href="https://tinyurl.com/y5t2smnc" style="color: white"><u>Necromancer</u> - Great beginner boot2root with a story.</a></center>
-          <center><a href="https://tinyurl.com/yxerr6xf" style="color: white"><u>RickdicuolouslyEasy</u> - Easy Rick and Morty themed boot2root.</a></center>
-          <center><a href="https://tinyurl.com/y4gv5uv4" style="color: white"><u>Metasploitable 2</u> - An intentionally vulnerable operating system.</a></center>
+          <center><a href="https://tinyurl.com/y5t2smnc" style="color: white" target="_blank"><u>Necromancer</u> - Great beginner boot2root with a story.</a></center>
+          <center><a href="https://tinyurl.com/yxerr6xf" style="color: white" target="_blank"><u>RickdicuolouslyEasy</u> - Easy Rick and Morty themed boot2root.</a></center>
+          <center><a href="https://tinyurl.com/y4gv5uv4" style="color: white" target="_blank"><u>Metasploitable 2</u> - An intentionally vulnerable operating system.</a></center>
         </ul>
         <h5><center>Tutorials and Guides<center></h5>
           <ul>
-            <center><a href="https://tinyurl.com/y3jy8u6m" style="color: white"><u>Bash Command Line Info</u> - Essential for Linux/MacOS users.</a></center>
-            <center><a href="https://tinyurl.com/yyg3y5wv" style="color: white"><u>Linux Device Drivers</u> - Free book on writing Linux drivers.</a></center>
+            <center><a href="https://tinyurl.com/y3jy8u6m" style="color: white" target="_blank"><u>Bash Command Line Info</u> - Essential for Linux/MacOS users.</a></center>
+            <center><a href="https://tinyurl.com/yyg3y5wv" style="color: white" target="_blank"><u>Linux Device Drivers</u> - Free book on writing Linux drivers.</a></center>
           </ul>
           <h1><center>Webapp</center></h1>
           <h5><center>Hacking</center></h5>
           <ul>
-            <center><a href="https://tinyurl.com/y4bto4rm" style="color: white"><u>Webapp Hacking Howto</u> - Resources from Bugcrowd.</a></center>
-            <center><a href="https://tinyurl.com/y3uv2agt" style="color: white"><u>Hacksplaining</u> - High quality web hacking tutorials and countermeasures.</a></center>
+            <center><a href="https://tinyurl.com/y4bto4rm" style="color: white" target="_blank"><u>Webapp Hacking Howto</u> - Resources from Bugcrowd.</a></center>
+            <center><a href="https://tinyurl.com/y3uv2agt" style="color: white" target="_blank"><u>Hacksplaining</u> - High quality web hacking tutorials and countermeasures.</a></center>
           </ul>
           <h5><center>Development</h5></center>
           <ul>
-            <center><a href="https://reactjs.org/docs/getting-started.html" style="color: white"><u>React</u> - Used for HTML in Javascript, the core of our front end design.</a></center>
-            <center><a href="https://www.gatsbyjs.org/tutorial/" style="color: white"><u>Gatsby</u> - Used for page compiling and deployment.</a></center>
-            <center><a href="https://graphql.org/learn/" style="color: white"><u>GraphQL</u> - Used for string and resource management.</a></center>
-            <center><a href="https://nodejs.org/en/docs/" style="color: white"><u>Node JS</u> - Everything listed above runs off of this website.</a></center>
+            <center><a href="https://reactjs.org/docs/getting-started.html" style="color: white" target="_blank"><u>React</u> - Used for HTML in Javascript, the core of our front end design.</a></center>
+            <center><a href="https://www.gatsbyjs.org/tutorial/" style="color: white" target="_blank"><u>Gatsby</u> - Used for page compiling and deployment.</a></center>
+            <center><a href="https://graphql.org/learn/" style="color: white" target="_blank"><u>GraphQL</u> - Used for string and resource management.</a></center>
+            <center><a href="https://nodejs.org/en/docs/" style="color: white" target="_blank"><u>Node JS</u> - Everything listed above runs off of this website.</a></center>
           </ul>
         </div>
         <div class="col-sm-4">
           <h1><center>Blue Team</center></h1>
           <h5><center>Tools</center></h5>
           <ul>
-            <center><a href="https://www.fail2ban.org/wiki/index.php/Main_Page" style="color: white"><u>Fail2Ban</u> - Automatically bans IP addresses.</a></center>
-            <center><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon" style="color: white"><u>Sysmon</u> - System monitor for Windows.</a></center>
+            <center><a href="https://www.fail2ban.org/wiki/index.php/Main_Page" style="color: white" target="_blank"><u>Fail2Ban</u> - Automatically bans IP addresses.</a></center>
+            <center><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon" style="color: white" target="_blank"><u>Sysmon</u> - System monitor for Windows.</a></center>
           </ul>
           <h1>Reverse Engineering</h1>
           <h5>Reference</h5>
           <ul>
-            <center><a href="https://en.wikipedia.org/wiki/X86_instruction_listings" style="color: white"><u>x86 Instruction Set</u> - The most common architecture seen in consumer PCs.</a></center>
+            <center><a href="https://en.wikipedia.org/wiki/X86_instruction_listings" style="color: white" target="_blank"><u>x86 Instruction Set</u> - The most common architecture seen in consumer PCs.</a></center>
           </ul>
           <h5>Tools</h5>
           <ul>
-            <center><a href="https://www.fireeye.com/services/freeware/apatedns.html" style="color: white"><u>ApateDNS</u> - A phony DNS server.</a></center>
-            <center><a href="http://www.angusj.com/resourcehacker/" style="color: white"><u>Resource Hacker</u> - A resource editor for 32bit and 64bit Windows applications.</a></center>
-            <center><a href="https://www.aldeid.com/wiki/PEView" style="color: white"><u>PEview</u> - A tool for quickly and easily getting the structure and content of a portable executable.</a></center>
+            <center><a href="https://www.fireeye.com/services/freeware/apatedns.html" style="color: white" target="_blank"><u>ApateDNS</u> - A phony DNS server.</a></center>
+            <center><a href="http://www.angusj.com/resourcehacker/" style="color: white" target="_blank"><u>Resource Hacker</u> - A resource editor for 32bit and 64bit Windows applications.</a></center>
+            <center><a href="https://www.aldeid.com/wiki/PEView" style="color: white" target="_blank"><u>PEview</u> - A tool for quickly and easily getting the structure and content of a portable executable.</a></center>
           </ul>
           <h1>Practice</h1>
           <ul>
-            <center><a href="https://microcorruption.com/login" style="color: white"><u>Microcorruption</u> - Embedded systems of CTFs.</a></center>
-            <center><a href="https://crackmes.one/" style="color: white"><u>Crackmes</u> - A place to download crackmes to improve RE skills.</a></center>
+            <center><a href="https://microcorruption.com/login" style="color: white" target="_blank"><u>Microcorruption</u> - Embedded systems of CTFs.</a></center>
+            <center><a href="https://crackmes.one/" style="color: white" target="_blank"><u>Crackmes</u> - A place to download crackmes to improve RE skills.</a></center>
           </ul>
           <h1>Fun Reading</h1>
           <ul>
-            <center><a href="https://esolangs.org/wiki/Language_list" style="color: white"><u>Esolang</u> - Strange programming languages.</a></center>
-            <center><a href="https://xkcd.com/" style="color: white"><u>XKCD</u> - Well known STEM comics, great for wasting time!</a></center>
+            <center><a href="https://esolangs.org/wiki/Language_list" style="color: white" target="_blank"><u>Esolang</u> - Strange programming languages.</a></center>
+            <center><a href="https://xkcd.com/" style="color: white" target="_blank"><u>XKCD</u> - Well known STEM comics, great for wasting time!</a></center>
           </ul>
         </div>
         <div class="col-sm-4">
           <h1>Reddit</h1>
           <ul>
-            <center><a href="https://www.reddit.com/r/netsec/" style="color: white"><u>Netsec</u> - A thread for network security.</a></center>
-            <center><a href="https://www.reddit.com/r/ProgrammerHumor/" style="color: white"><u>ProgrammerHumor</u> - A great place to make fun of Javascript.</a></center>
-            <center><a href="https://www.reddit.com/r/securityCTF/" style="color: white"><u>SecurityCTF</u> - CTF teams, walkthroughs and schedules.</a></center>
+            <center><a href="https://www.reddit.com/r/netsec/" style="color: white" target="_blank"><u>Netsec</u> - A thread for network security.</a></center>
+            <center><a href="https://www.reddit.com/r/ProgrammerHumor/" style="color: white" target="_blank"><u>ProgrammerHumor</u> - A great place to make fun of Javascript.</a></center>
+            <center><a href="https://www.reddit.com/r/securityCTF/" style="color: white" target="_blank"><u>SecurityCTF</u> - CTF teams, walkthroughs and schedules.</a></center>
           </ul>
           <h1>Movies, TV, and Hack Culture</h1>
           <h5>Movies</h5>
           <ul>
-            <center><a href="https://www.imdb.com/title/tt0113243/" style="color: white"><u>Hackers</u> - A movie about hackers in the 90's.</a></center>
-            <center><a href="https://www.imdb.com/title/tt0092099/" style="color: white"><u>Top Gun</u> - Navy Pilot school.</a></center>
-            <center><a href="https://www.imdb.com/title/tt0086567/" style="color: white"><u>War Games</u> - A kid almost starts a war with Russia by hacking a government war simulation.</a></center>
-            <center><a href="https://www.imdb.com/title/tt0133093/" style="color: white"><u>The Matrix</u> - The title says it all.</a></center>
+            <center><a href="https://www.imdb.com/title/tt0113243/" style="color: white" target="_blank"><u>Hackers</u> - A movie about hackers in the 90's.</a></center>
+            <center><a href="https://www.imdb.com/title/tt0092099/" style="color: white" target="_blank"><u>Top Gun</u> - Navy Pilot school.</a></center>
+            <center><a href="https://www.imdb.com/title/tt0086567/" style="color: white" target="_blank"><u>War Games</u> - A kid almost starts a war with Russia by hacking a government war simulation.</a></center>
+            <center><a href="https://www.imdb.com/title/tt0133093/" style="color: white" target="_blank"><u>The Matrix</u> - The title says it all.</a></center>
           </ul>
           <h5>Shows</h5>
           <ul>
-            <center><a href="https://www.imdb.com/title/tt4158110/" style="color: white"><u>Mr. Robot</u> - TV series about underground hackers.</a></center>
+            <center><a href="https://www.imdb.com/title/tt4158110/" style="color: white" target="_blank"><u>Mr. Robot</u> - TV series about underground hackers.</a></center>
           </ul>
           <h1>Youtube</h1>
           <ul>
-            <center><a href="https://www.youtube.com/user/JackkTutorials" style="color: white"><u>Jackk Tutorials</u> - In depth walkthroughs covering many topics.</a></center>
-            <center><a href="https://www.youtube.com/channel/UChlfPtuG7T6mnG7-iD-5JVA" style="color: white"><u>Z Hacker</u> - High production value walkthroughs for hacking tools.</a></center>
-            <center><a href="https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w" style="color: white"><u>Live Overflow</u> - Intermediate level hacking and reverse engineering videos.</a></center>
+            <center><a href="https://www.youtube.com/user/JackkTutorials" style="color: white" target="_blank"><u>Jackk Tutorials</u> - In depth walkthroughs covering many topics.</a></center>
+            <center><a href="https://www.youtube.com/channel/UChlfPtuG7T6mnG7-iD-5JVA" style="color: white" target="_blank"><u>Z Hacker</u> - High production value walkthroughs for hacking tools.</a></center>
+            <center><a href="https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w" style="color: white" target="_blank"><u>Live Overflow</u> - Intermediate level hacking and reverse engineering videos.</a></center>
           </ul>
           <h1>CTFs</h1>
           <ul>
-            <center><a href="https://ctftime.org/" style="color: white"><u>CTF Time</u> - A website with a calendar of upcoming and ongoing CTF challenges.</a></center>
-            <center><a href="https://www.hackthebox.eu/" style="color: white"><u>Hack the Box</u> - A CTF with a variety of ongoing challenges and boxes to pentest.</a></center>
-            <center><a href="https://www.hackthissite.org/" style="color: white"><u>Hack this Site</u> - A site made to be hacked.</a></center>
+            <center><a href="https://ctftime.org/" style="color: white" target="_blank"><u>CTF Time</u> - A website with a calendar of upcoming and ongoing CTF challenges.</a></center>
+            <center><a href="https://www.hackthebox.eu/" style="color: white" target="_blank"><u>Hack the Box</u> - A CTF with a variety of ongoing challenges and boxes to pentest.</a></center>
+            <center><a href="https://www.hackthissite.org/" style="color: white" target="_blank"><u>Hack this Site</u> - A site made to be hacked.</a></center>
           </ul>
         </div>
       </div>
