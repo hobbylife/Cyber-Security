@@ -56,9 +56,13 @@ text-align: center;
   }
 }
 
-<style type="text/css">
  body {
   background-image: url(background.jpg);
   background-repeat: no-repeat;
  }
-</style>
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}

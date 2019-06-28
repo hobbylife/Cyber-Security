@@ -10,7 +10,7 @@
   font-family:monospace;
   font-size:1.25em;
   color: white;
-
+text-align: center;
 }
 
 .header {
@@ -40,9 +40,15 @@
   bottom: 5px;
 }
 
-<style type="text/css">
- body {
-  background-image: url(background.jpg);
-  background-repeat: no-repeat;
- }
-</style>
+
+
+#paragraph
+  {
+  text-align: center;
+    font-size: 4.9em;
+    color:black;
+    font-family:monospace;
+    display: block;
+    font-weight: block;
+
+  }
